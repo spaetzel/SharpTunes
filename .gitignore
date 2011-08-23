@@ -1,7 +1,9 @@
-Sharpnote.Tests/
-bin/*.xml
-Depends/*.xml
-Sharpnote/obj
-Sharpnote/bin
-Sharpnote.obj
-Sharpnote.suo
+# ReSharper meta directory
+_ReSharper*
+
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+bin
+obj
+
+# mstest test results
+TestResults

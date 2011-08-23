@@ -1,8 +1,0 @@
-C:\Users\wspaetzel\Personal\Projects\SharpTunes\SharpTunesConsole\bin\Debug\SharpTunesConsole.exe
-C:\Users\wspaetzel\Personal\Projects\SharpTunes\SharpTunesConsole\bin\Debug\SharpTunesConsole.pdb
-C:\Users\wspaetzel\Personal\Projects\SharpTunes\SharpTunesConsole\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\wspaetzel\Personal\Projects\SharpTunes\SharpTunesConsole\obj\x86\Debug\SharpTunesConsole.exe
-C:\Users\wspaetzel\Personal\Projects\SharpTunes\SharpTunesConsole\obj\x86\Debug\SharpTunesConsole.pdb
-C:\Users\wspaetzel\Personal\Projects\SharpTunes\SharpTunesConsole\bin\Debug\SharpTunes.dll
-C:\Users\wspaetzel\Personal\Projects\SharpTunes\SharpTunesConsole\bin\Debug\Newtonsoft.Json.dll
-C:\Users\wspaetzel\Personal\Projects\SharpTunes\SharpTunesConsole\bin\Debug\SharpTunes.pdb
