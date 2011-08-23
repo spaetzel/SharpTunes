@@ -1,0 +1,7 @@
+C:\Users\wspaetzel\Personal\Projects\SharpTunes\SharpTunes\bin\Debug\SharpTunes.dll
+C:\Users\wspaetzel\Personal\Projects\SharpTunes\SharpTunes\bin\Debug\SharpTunes.pdb
+C:\Users\wspaetzel\Personal\Projects\SharpTunes\SharpTunes\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\wspaetzel\Personal\Projects\SharpTunes\SharpTunes\obj\Debug\SharpTunes.dll
+C:\Users\wspaetzel\Personal\Projects\SharpTunes\SharpTunes\obj\Debug\SharpTunes.pdb
+C:\Users\wspaetzel\Personal\Projects\SharpTunes\SharpTunes\bin\Debug\Newtonsoft.Json.dll
+C:\Users\wspaetzel\Personal\Projects\SharpTunes\SharpTunes\bin\Debug\SharpTunes.dll.config
