@@ -13,9 +13,9 @@ namespace SharpTunesConsole
     {
         static void Main(string[] args)
         {
-            
-          
-            var page =DownloadiTunesUrl("http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewRoom?fcId=374710547&genreIdString=1301&mediaTypeString=Podcasts");
+
+
+            var page = DownloadiTunesUrl("http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewRoom?fcId=330580868&genreIdString=26&mediaTypeString=Podcasts");
 
             string regex = "subscribePodcast\\?id=([0-9]*)";
 

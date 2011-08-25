@@ -1,0 +1,39 @@
+﻿The arts what's hot
+ /WebObjects/MZStore.woa/wa/viewRoom?fcId=374710547&genreIdString=1301&mediaTypeString=Podcasts
+
+ The arts what's hot audio
+  /WebObjects/MZStore.woa/wa/roomPageContentMatrixFragment?fcId=374710547&page=1&sort=1&pill=1
+
+  Video
+  /WebObjects/MZStore.woa/wa/roomPageContentMatrixFragment?fcId=374710547&page=1&sort=1&pill=2
+
+  Business what's hot
+  /WebObjects/MZStore.woa/wa/viewRoom?fcId=374711221&genreIdString=1321&mediaTypeString=Podcasts
+
+  audio
+  /WebObjects/MZStore.woa/wa/roomPageContentMatrixFragment?fcId=374711221&page=1&sort=1&pill=1
+
+  video
+  /WebObjects/MZStore.woa/wa/roomPageContentMatrixFragment?fcId=374711221&page=1&sort=1&pill=2
+
+  Comedy what's hot
+  374711730
+
+  Eduction new & noteworth
+  /WebObjects/MZStore.woa/wa/viewRoom?fcId=374711799&genreIdString=1304&mediaTypeString=Podcasts
+
+  audio
+  /WebObjects/MZStore.woa/wa/roomPageContentMatrixFragment?fcId=374711799&page=1&sort=1&pill=1
+
+  video
+  /WebObjects/MZStore.woa/wa/roomPageContentMatrixFragment?fcId=374711799&page=1&sort=1&pill=2
+
+  Eductation what's hot
+  /WebObjects/MZStore.woa/wa/viewRoom?fcId=374711803&genreIdString=1304&mediaTypeString=Podcasts
+
+  audio
+  /WebObjects/MZStore.woa/wa/roomPageContentMatrixFragment?fcId=374711803&page=1&sort=1&pill=1 
+
+
+  ALL NEw & Noteworthy
+  /WebObjects/MZStore.woa/wa/viewRoom?fcId=330580868&genreIdString=26&mediaTypeString=Podcasts
