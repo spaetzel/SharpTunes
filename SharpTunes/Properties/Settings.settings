@@ -11,5 +11,8 @@
     <Setting Name="Domain" Type="System.String" Scope="User">
       <Value Profile="(Default)">itunes.apple.com</Value>
     </Setting>
+    <Setting Name="SearchPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/search</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

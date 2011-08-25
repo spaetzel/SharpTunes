@@ -58,5 +58,17 @@ namespace SharpTunes.Properties {
                 this["Domain"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("/search")]
+        public string SearchPath {
+            get {
+                return ((string)(this["SearchPath"]));
+            }
+            set {
+                this["SearchPath"] = value;
+            }
+        }
     }
 }

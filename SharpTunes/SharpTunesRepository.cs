@@ -28,6 +28,39 @@ namespace SharpTunes
             }
         }
 
+        public SearchResultEnumerable SearchObjects(string term, string country = "US", string media = "all", string entity = null, string attribute = null, int limit = 50, string lang = "en_us", int version = 2, bool explicitResults = true)
+        {
+            var requestPath = string.Format("{0}", _settings.SearchPath);
+
+            List<string> parameters = new List<string>(){
+                String.Format("term={0}", term ),
+                String.Format("country={0}", country),
+                String.Format("media={0}", media),
+                String.Format("limit={0}", limit),
+                String.Format("lang={0}", lang),
+                String.Format("version={0}", version),
+                String.Format("explicit={0}", explicitResults ? "Yes" : "No" )
+            };
+
+            if( entity != null )
+            {
+                parameters.Add(String.Format("entity={0}", entity));
+            }
+
+            if (attribute != null)
+            {
+                parameters.Add(String.Format("attribute={0}", attribute));
+            }
+
+            using (var resp = ProcessRequest(requestPath, "GET", parameters))
+            {
+                var respContent = ReadResponseContent(resp);
+                var notes = JsonConvert.DeserializeObject<SearchResultEnumerable>(respContent);
+
+                return notes;
+            }
+        }
+
         public ISearchResult GetObjectById(int id)
         {
           //  try

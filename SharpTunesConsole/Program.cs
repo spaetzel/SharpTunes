@@ -14,7 +14,18 @@ namespace SharpTunesConsole
         static void Main(string[] args)
         {
 
+            var respository = SharpTunes.SharpTunesRepository.Instance;
 
+            var podcasts = respository.SearchObjects("castroller", media: "podcast");
+
+            foreach (var curPodcast in podcasts)
+            {
+
+
+                Console.WriteLine("{0}: {1} - {2} - {3}", curPodcast.CollectionId, curPodcast.CollectionName, curPodcast.PrimaryGenreName, GetPodcastFeedUrl(curPodcast.CollectionId.Value));
+            }
+
+            /*
             var page = DownloadiTunesUrl("http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewRoom?fcId=330580868&genreIdString=26&mediaTypeString=Podcasts");
 
             string regex = "subscribePodcast\\?id=([0-9]*)";
@@ -25,17 +36,36 @@ namespace SharpTunesConsole
                       select Convert.ToInt32 (m.Groups[1].Value);
 
 
+            
 
-            var respository = SharpTunes.SharpTunesRepository.Instance;
 
-            foreach (var curId in ids.Take(10))
+            var podcasts = from id in ids
+                           select respository.GetObjectById(id);
+
+            var genres = from p in podcasts
+                         group p by p.PrimaryGenreName into g
+                         orderby g.Key ascending
+                         select new { Genre = g.Key,
+                             Count = g.Count()
+                         };
+
+
+
+            foreach (var curGenre in genres)
             {
-                var result = respository.GetObjectById(curId);
-
-                Console.WriteLine("{0}: {1} - {2} - {3}", curId, result.CollectionName, result.PrimaryGenreName, GetPodcastFeedUrl(curId ) );
+                Console.WriteLine("{0} {1}", curGenre.Genre, curGenre.Count);
             }
 
+            
+            foreach (var curPodcast in podcasts )
+            {
+
+
+                Console.WriteLine("{0}: {1} - {2} - {3}", curPodcast.CollectionId, curPodcast.CollectionName, curPodcast.PrimaryGenreName, GetPodcastFeedUrl(curPodcast.CollectionId.Value));
+            }
+            */
             Console.ReadLine();
+             
         }
 
         private static string DownloadiTunesUrl(string url)
