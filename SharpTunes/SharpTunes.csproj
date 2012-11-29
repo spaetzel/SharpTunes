@@ -52,6 +52,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <Compile Include="SharpTunesRepository.cs" />
+    <Compile Include="Podcasts.cs" />
+    <Compile Include="FeedParser.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Json\" />
